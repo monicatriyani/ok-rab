@@ -1,0 +1,264 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logookrab, .logookrabhome {
+    height: 80px;
+}
+.logoPLNheader {
+    height: 40px;
+    margin-right: 30px;
+}
+.logoPLNprinter {
+    width: 60px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.backgroundheader {
+    background: linear-gradient(to right, #15677b 5%, #179fb7 59%, #14a0b7 100%);
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(255,255,255,5);
+}
+.active {
+    color: white;
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.fa-user {
+    color: white;
+}
+.backgroundfooter {
+    background: linear-gradient(to left, #15677b 5%, #179fb7 59%, #14a0b7 100%);
+}
+.footer {
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.teks {
+    padding-top: 10px; 
+}
+.footer p {
+    color: white;
+    font-size: 14px;
+}
+.footer hr {
+    border-top: 2px solid #b1e0e8;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+.startpage {
+    background: black;
+    text-align: center;
+    height: 100%;
+}
+.judulaplikasi {
+    color: white;
+    font-size: 18pt;
+    margin-top: 30px;
+}
+.button-container {
+    margin-top: 30px;
+}
+.button-container a, .button-container a:hover {
+    color: white;
+    text-decoration: none;
+}
+.loginbtn {
+    background-color: #ffaa00;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.loginbtn:hover, #submitlogin:hover, #submit:hover {
+    opacity: 0.8;
+}
+.backgroundstartpage {
+    min-width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centered {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.htmllogin, .bodylogin {
+	height:100%;
+	width:100%;
+	margin:0;
+}
+.logologinregister {
+	height: 50px;
+	margin: 15px 0px 0px 20px;
+	position: absolute;
+}
+.bodylogin {
+	background: linear-gradient(to right, #15677b 5%, #179fb7 59%, #14a0b7 100%);
+	display:flex;
+	text-align: center;
+}
+.formlogin {
+	margin: auto;
+	font-size: 16px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px;
+}
+.formtitle {
+    font-weight: bold;
+    font-size: 18pt;
+    padding-top: 20px;
+}
+.inputlogin {
+	border: 0;
+	border-bottom: 3px solid #ddd;
+	width: 250px;
+	margin: 15px;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 10px;
+}
+.inputlogin:hover {
+	border-bottom: 3px solid #fffb12;
+}
+.inputlogin:focus {
+	border-bottom: 3px solid #fffb12;
+}
+.buttonlogin {
+	border: 0;
+	width: 70px;
+	height: 45px;
+    background-color:#179fb7;
+    font-size: 16px;
+	color: white;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 5px;
+	cursor: pointer;
+}
+.buttonlogin:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+#cardheader{
+    font-size: 19px;
+    font-family: Arial;
+}
+.tabel {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+.tabel tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  .tabel th,
+  .tabel td {
+    padding: .625em;
+    text-align: center;
+  }
+  .tabel th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .line-title{
+    border: 0;
+    border-style: inset;
+    border-top: 2px solid #000;
+   }
+   #printpage, #norab {
+       font-size: 10pt;
+   }
+   #norab, #tengah {
+       text-align: center;
+   }
+   #kanan {
+       text-align: right;
+   }
+   .teksprint, #judulprint, #norab {
+       font-weight: bold;
+   }
+   #judulprint {
+       font-size: 14pt;
+       text-align: center;
+   }
+   .tabelprint, .tabelprint tr, .tabelprint td, .tabelprint thead tr th {
+    border: 1px solid #000;
+   }
+   .headexcel, .headexcel tr, .headexcel td {
+       font-size: 10pt;
+   }
+   .boldsmall {
+       font-size: 9pt;
+       font-weight: bold;
+   }
+   .ninept {
+       font-size: 9pt;
+   }
+
+   .penjelasansingkat {
+       color: white;
+   }
+   #unduhexcel {
+       font-size: 12pt;
+   }
+  @media screen and (max-width: 600px) {
+    .tabel {
+      border: 0;
+    }
+    .tabel thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    .tabel tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    .tabel td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    .tabel td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .tabel td:last-child {
+      border-bottom: 0;
+    }
+    .footer p {
+        font-size: 10px;
+    }
+    .judulaplikasi {
+        font-size: 12pt;
+    }
+    .penjelasansingkat {
+        font-size: 10pt;
+    }
+    .logookrab, .logookrabhome {
+        height: 60px;
+    }
+  }
